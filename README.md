@@ -1,8 +1,9 @@
 ## PI2_JPAD
 
-Atividades da unidade curricular PI2
-
-# Domótica
+Atividades da unidade curricular PI2.
+<p>------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+  # Domótica
 
   A domótica é o processo de integração dos recursos tecnologicos para gerir questões habitacionais. Surge para facilitar o uso e otimizar os recursos que os indivíduos imersos no meio habitacional utilizam, uma vez que ações antes descentralizadas, passam a pertencer a um único sistema gestor final geral que ramifica as funções antes independentes.
   <p>Podemos verificar alguns exemplos como, o acionamento de lâmpadas nos cômodos de uma residencia, ligar sistema de ar-condicionado e sua alteração de temepratura, inicar a irrigação do jardim, ligar o sistema de alarme, janelas, enfim, uma infinidade de funções que antes dependiam da atencão direta do proprietário, agora com a utilização dos recursos no estudo da domótica, possibilita concentrar essas atividades e controla-lás mais facilemnte e até automaticamente.
