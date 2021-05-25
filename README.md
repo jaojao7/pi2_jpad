@@ -1,2 +1,2 @@
 # pi2_jpad
-Anotações da unidade curricular PI2
+Atividades da unidade curricular PI2
