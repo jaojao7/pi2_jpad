@@ -15,4 +15,5 @@ Atividades da unidade curricular PI2.
 ## Referências
     
 [SISLITE](http://www.sislite.pt/domus.htm#:~:text=Domótica%20é%20uma%20tecnologia%20recente,realizar%20ações%20de%20forma%20automática/)<br>
+[PIXABAY](https://pixabay.com/pt/illustrations/home-smart-automação-casa-sistema-4100193/)<br>
  TEZA, Vanderlei Rabelo. **ALGUNS ASPECTOS SOBRE A AUTOMAÇÃO RESIDENCIAL - DOMÓTICA**. 2002. 108 f. Dissertação (Mestrado) - Curso de Ciência da Computação, Universidade Federal de Santa Catarina, Florianópolis, 2002.
