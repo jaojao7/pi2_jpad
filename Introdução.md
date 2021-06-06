@@ -1,5 +1,4 @@
 
-## Atividades da unidade curricular PI2.
   
   # Domótica
   A domótica é o processo de integração dos recursos tecnológicos para gerir questões habitacionais. Surge para facilitar o uso e otimizar os recursos que os indivíduos imersos no meio habitacional utilizam, uma vez que ações antes descentralizadas, passam a pertencer a um único sistema gestor final geral que ramifica as funções antes independentes.
