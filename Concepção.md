@@ -12,6 +12,10 @@ na hora da execução do projeto.
 * Conectar sensores e componentes com propositos pré definidos (Figura 3) em cômodos da casa maquete para fazer o controle dos parâmetros de acordo com a 
 necessidade do usuário. 
 
+###### Figura 2 - Planta Baixa Casa Modelo Maquete
+
+![PLANTABAIXAMODELOCASA](./Imagens/modelomaquetecasa.png) 
+
 #### Os requisitos fundamentais do projeto:
  * Controlar a iluminação dos cômodos.
 
