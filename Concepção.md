@@ -11,3 +11,14 @@ em escala reduzida o funcionamento real.
 na hora da execução do projeto.  
 * Conectar sensores e componentes com propositos pré definidos (Figura 3) em cômodos da casa maquete para fazer o controle dos parâmetros de acordo com a 
 necessidade do usuário. 
+
+#### Os requisitos fundamentais do projeto:
+ * Controlar a iluminação dos cômodos.
+
+* Controle dos LEDs de forma remota.
+
+* Sensor de presença para o jardim.
+
+* Sensor de gás.
+
+* Servomotor para o portão eletrônico.
