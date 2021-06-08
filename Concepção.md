@@ -30,9 +30,9 @@ necessidade do usuário.
 
 * Controlar os LEDs de forma remota.
 
-* Utilizar sensor de presença para o jardim.
+* Utilizar o sensor de presença para o jardim.
 
-* Utilizar sensor de gás.
+* Utilizar o sensor de gás.
 
 * Utilizar o servomotor para o portão eletrônico.
 
