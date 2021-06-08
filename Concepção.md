@@ -28,7 +28,7 @@ necessidade do usuário.
 #### Os requisitos fundamentais do projeto:
  * Controlar a iluminação dos cômodos.
 
-* Controlar dos LEDs de forma remota.
+* Controlar os LEDs de forma remota.
 
 * Utilizar sensor de presença para o jardim.
 
