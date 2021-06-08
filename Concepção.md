@@ -5,11 +5,11 @@ da dómotica, ou seja, proporcionar a configuração de alguns dos sistemas elé
 em escala reduzida o funcionamento real.
 
 
-###### Figura 1 -Modelo Desenho 3D Casa Maquete Frontal
+###### Figura 1 -Modelo desenho 3D casa maquete frontal.
 
 ![VISTA3DFRENTEMODELOCASA](./Imagens/maquetedesenho3dfrente.png) 
 
-###### Figura 2 -Modelo Desenho 3D Casa Maquete 
+###### Figura 2 -Modelo desenho 3D casa maquete. 
 
 ![VISTA3DMODELOCASA](./Imagens/maquetedesenho3d.png) 
 
