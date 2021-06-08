@@ -28,13 +28,13 @@ necessidade do usuário.
 #### Os requisitos fundamentais do projeto:
  * Controlar a iluminação dos cômodos.
 
-* Controle dos LEDs de forma remota.
+* Controlar dos LEDs de forma remota.
 
-* Sensor de presença para o jardim.
+* Utilizar sensor de presença para o jardim.
 
-* Sensor de gás.
+* Utilizar sensor de gás.
 
-* Servomotor para o portão eletrônico.
+* Utilizar o servomotor para o portão eletrônico.
 
 ###### Figura 4 - Planta baixa casa maquete com indicação dos sensores.
 
