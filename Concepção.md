@@ -16,7 +16,7 @@ em escala reduzida o funcionamento real.
 ## Objetivos Específicos 
 
 * Através dos recursos dispostos construir uma casa maquete seguindo o modelo de planta baixa (Figura 3).  
-* Implentar todo o sistema elétrico da casa maquete, incluindo sistema de iluminação, ventoinhas e outros dispostivos que se fizerem viáveis e convenientes
+* Implementar todo o sistema elétrico da casa maquete, incluindo sistema de iluminação, ventoinhas e outros dispostivos que se fizerem viáveis e convenientes
 na hora da execução do projeto e que atenda os seus requisitos.  
 * Conectar sensores e componentes com propósitos pré definidos (Figura 4) em cômodos da casa maquete para fazer o controle dos parâmetros de acordo com a 
 necessidade do usuário. 
