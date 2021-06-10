@@ -38,4 +38,4 @@ necessidade do usuário.
 
 ###### Figura 4 - Planta baixa casa maquete com indicação dos sensores.
 
-![PLANTABAIXAMODELOCASASENSORES](./Imagens/modelomaquetecasasensores.png) 
+![PLANTABAIXAMODELOCASASENSORES](./Imagens/modelomaquetecasasensores1.png) 
