@@ -23,7 +23,7 @@ necessidade do usuário.
 
 ###### Figura 3 - Planta baixa casa modelo maquete.
 
-![PLANTABAIXAMODELOCASA](./Imagens/modelomaquetecasa.png) 
+![PLANTABAIXAMODELOCASA](./Imagens/modelomaquetecasa1.png) 
 
 #### Os requisitos fundamentais do projeto:
  * Controlar a iluminação dos cômodos.
