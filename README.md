@@ -4,4 +4,4 @@
 ##### Clique nos tópicos abaixo para abrir a página referente:
 
 * [Introdução do Projeto](https://github.com/jaojao7/pi2_jpad/blob/main/introducao.md)
-* [Concepção do Projeto](https://github.com/jaojao7/pi2_jpad/blob/main/Concepcaoo.md)
+* [Concepção do Projeto](https://github.com/jaojao7/pi2_jpad/blob/main/Concepcao.md)
