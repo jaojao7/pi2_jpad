@@ -1,5 +1,5 @@
 
-<img src="./Imagens/ifsc.png" width="350">
+<img src="./Imagens/ifsc.png" width="450">
 
 # Seja bem vindo! 
 ## Repositório Destinado ao Desenvolvimento das Atividades da Unidade Curricular Projeto Integrador II
