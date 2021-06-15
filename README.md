@@ -1,4 +1,5 @@
-![LOGO](./Imagens/ifsc.png)
+
+<img src="./Imagens/ifsc.png" width="350">
 
 # Seja bem vindo! 
 ## Repositório Destinado ao Desenvolvimento das Atividades da Unidade Curricular Projeto Integrador II
