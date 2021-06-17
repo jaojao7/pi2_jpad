@@ -1,4 +1,4 @@
-## Objetivo Principal
+## Objetivo Geral
 
 Temos como principal objetivo deste projeto a construção de uma maquete residencial (Figuras 1 e 2) com o intuito de que sirva como uma base para aplicação 
 da dómotica, ou seja, proporcionar a configuração de alguns dos sistemas elétricos e mecânicos da casa maquete para funcionarem conectados a um controle em comum, simulando 
