@@ -20,6 +20,7 @@ em escala reduzida o funcionamento real.
 na hora da execução do projeto e que atenda os seus requisitos.  
 * Conectar sensores e componentes com propósitos pré definidos (Figura 4) em cômodos da casa maquete para fazer o controle dos parâmetros de acordo com a 
 necessidade do usuário. 
+* Implementar um sistema de alarme sonoro com mensagem em voz, caso o sensor de gás seja acionado.
 
 ###### Figura 3 - Planta baixa casa modelo maquete.
 
