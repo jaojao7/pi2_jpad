@@ -12,7 +12,7 @@ Temos como principal objetivo deste projeto utilizar os conceitos que envolvem o
 ![VISTA3DMODELOCASA](./Imagens/maquetedesenho3d.png) 
 
 Abaixo algumas etapas a serem alcançadas:
-
+* Realizar todo o controle da casa remotamente via Bluetooth, utilizando um aplicativo desenvolvido na plataforma MIT App Inventor.
 * Através dos recursos dispostos construir uma casa maquete seguindo o modelo de planta baixa (Figura 3).  
 * Implementar todo o sistema elétrico da casa maquete, incluindo sistema de iluminação, ventoinhas e outros dispostivos que se fizerem viáveis e convenientes
 na hora da execução do projeto e que atenda os seus requisitos.  
