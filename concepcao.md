@@ -18,6 +18,9 @@ necessidade do usuário.
 
 * Utilizar o servomotor para o portão eletrônico.
 
-###### Figura 3 - Planta baixa casa maquete com indicação dos sensores.
+###### Figura 1 - Planta baixa Térreo casa maquete com indicação dos sensores.
 
-![PLANTABAIXAMODELOCASASENSORES](./Imagens/modelomaquetecasasensores1.png) 
+![PLANTABAIXAMODELOCASASENSORES](./Imagens/terreo.png) 
+###### Figura 2 - Planta baixa Primeiro Andar casa maquete com indicação dos sensores.
+
+![PLANTABAIXAMODELOCASASENSORES](./Imagens/primandar.png) 
