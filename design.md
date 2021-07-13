@@ -5,7 +5,8 @@ Abaixo segue uma tabela com os componentes utilizados e suas respectivas descri�
 Imagem |Componente   | Quantidade | Descrição/Utilização
 :-------:|:---------: | :--------------:| :------ 
 <img src="./Imagens/led.png" width="100"> |Led Branco 5mm | 10| Iluminação do projeto
-<img src="./Imagens/330.png" width="100">|Resistor 330Ω | 11| Utilizado na parte da iluminação do projeto e do alarme
+<img src="./Imagens/680.png" width="100">|Resistor 680Ω | 10| Utilizado na parte da iluminação do projeto e do alarme
+<img src="./Imagens/330.png" width="100">|Resistor 330Ω | 1| Utilizado na parte do alarme
 <img src="./Imagens/10k.png" width="100">|Resistor 10kΩ | 1 | Utilizado com o sensor DHT11
 <img src="./Imagens/mega.png" width="100">|Placa Arduino Mega 2560 R3 |1|Utilizada para o desenvolvimento e funcionamento do projeto
  <img src="./Imagens/mq2.png" width="100">|MQ-2|1|Sensor de Gás inflamável e de fumaça
