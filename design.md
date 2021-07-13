@@ -1,6 +1,6 @@
 ## Design do Projeto
 
-Abaixo segue uma tabela com os componentes utilizados e suas respectivas descrições e o esquemático de montagem na sequência :
+Abaixo segue uma tabela com os componentes utilizados e suas respectivas descrições,  na sequência o esquemático de montagem :
 
 Imagem |Componente   | Quantidade | Descrição/Utilização
 :-------:|:---------: | :--------------:| :------ 
