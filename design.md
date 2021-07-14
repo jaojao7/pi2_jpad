@@ -22,3 +22,7 @@ Imagem |Componente   | Quantidade | Descrição/Utilização
 ###### Figura 1 - Esquemático do Projeto  
 
 <img src="./Imagens/Projeto.jpg" width="1000">
+
+### Algumas Observações:
+
+* Para utilização do módulo Bluetooth é necessário o conversor de nível lógico nas entradas RX e TX pois o mesmo trabalha com a tensão de 3.3V e as entradas do Arduino fornecem 5V.
