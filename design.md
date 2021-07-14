@@ -17,5 +17,5 @@ Imagem |Componente   | Quantidade | Descrição/Utilização
 <img src="./Imagens/player.png" width="100">|Modulo wtv020 sd|1|Utilizado na parte do alarme
 <img src="./Imagens/pam.png" width="100">|PAM8403|1|Amplificador Digital utilizado na parte do alarme 
 <img src="./Imagens/mb102.png" width="100">|Módulo MB102|1| Fonte de tensão ajustável
-<img src="./Imagens/auto.png" width="100">|Auto falante 3W|1|Utilizado na parte do alarme
+<img src="./Imagens/auto.png" width="100">|Auto falante 0.5W 8Ω|1|Utilizado na parte do alarme
 <img src="./Imagens/servo.png" width="100">|Servomotor|1|Utilizado no mecanismo de entrada da garagem
