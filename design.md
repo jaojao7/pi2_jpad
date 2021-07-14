@@ -21,7 +21,7 @@ Imagem |Componente   | Quantidade | Descrição/Utilização
 
 ###### Figura 1 - Esquemático do Projeto  
 
-<img src="./Imagens/projeto.jpg" width="1000">
+<img src="./Imagens/projeto1.jpg" width="1000">
 
 ### Algumas Observações:
 
