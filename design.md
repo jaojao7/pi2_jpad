@@ -20,5 +20,6 @@ Imagem |Componente   | Quantidade | Descrição/Utilização
 <img src="./Imagens/auto.png" width="100">|Auto falante 0.5W 8Ω|1|Utilizado na parte do alarme
 <img src="./Imagens/servo.png" width="100">|Servomotor|1|Utilizado no mecanismo de entrada da garagem
 
-###
-<img src="./Imagens/projeto.png" width="100">
+###### Figura 1 - Esquemático do Projeto  
+
+<img src="./Imagens/Projeto.png" width="100">
