@@ -19,3 +19,6 @@ Imagem |Componente   | Quantidade | Descrição/Utilização
 <img src="./Imagens/mb102.png" width="100">|Módulo MB102|1| Fonte de tensão ajustável
 <img src="./Imagens/auto.png" width="100">|Auto falante 0.5W 8Ω|1|Utilizado na parte do alarme
 <img src="./Imagens/servo.png" width="100">|Servomotor|1|Utilizado no mecanismo de entrada da garagem
+
+###
+<img src="./Imagens/projeto.png" width="100">
