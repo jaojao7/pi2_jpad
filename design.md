@@ -33,13 +33,13 @@ Imagem |Componente   | Quantidade | Descrição/Utilização
 ### Aplicativo
 Abaixo algumas imagens do aplicativo que será posteriormente utilizado para realizar o controle da casa:
 ###### Figura 2 - Tela Incial  
-<img src="./Imagens/inicial.png" width="500">
+<img src="./Imagens/inicial.png" width="200">
 
 ###### Figura 3 - Tela Principal  
-<img src="./Imagens/principal.png" width="500">
+<img src="./Imagens/principal.png" width="200">
 
 ###### Figura 4 - Tela Térreo  
-<img src="./Imagens/terreo.png" width="500">
+<img src="./Imagens/terreo.png" width="200">
 
 ###### Figura 5 - Tela Primeiro Andar 
-<img src="./Imagens/1andar.png" width="500">
+<img src="./Imagens/1andar.png" width="200">
