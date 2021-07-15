@@ -29,3 +29,17 @@ Imagem |Componente   | Quantidade | Descrição/Utilização
 * O amplificador PAM8403 é utilizado para melhoria do som, porém o sistema funcionaria sem o mesmo. Bastando conectar o autofalante diretamente nas entradas correspondentes no wtv020 SD.
 * Atenção a tensão de alimentação do módulo wtv020 SD como sendo 3.3V.
 * No sensor DHT11 é necessário um resistor de 10kΩ conectado as entradas VCC e de dados do componente.
+
+### Aplicativo
+Abaixo algumas imagens do aplicativo que será posteriormente utilizado para realizar o controle da casa:
+###### Figura 2 - Tela Incial  
+<img src="./Imagens/inicial.png" width="500">
+
+###### Figura 3 - Tela Principal  
+<img src="./Imagens/principal.png" width="500">
+
+###### Figura 4 - Tela Térreo  
+<img src="./Imagens/terreo.png" width="500">
+
+###### Figura 5 - Tela Primeiro Andar 
+<img src="./Imagens/1andar.png" width="500">
