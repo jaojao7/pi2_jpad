@@ -27,4 +27,5 @@ Imagem |Componente   | Quantidade | Descrição/Utilização
 
 * Para utilização do módulo Bluetooth é necessário o conversor de nível lógico nas entradas RX e TX pois o mesmo trabalha com a tensão de 3.3V e as entradas do Arduino fornecem 5V.
 * O amplificador PAM8403 é utilizado para melhoria do som, porém o sistema funcionaria sem o mesmo. Bastando conectar o autofalante diretamente nas entradas correspondentes no wtv020 SD.
-* No sensor DHT11 é necessário um resistor de 10kΩ conectado as entradas VCC e de Dados do componente.
+* Atenção a tensão de alimentação do módulo wtv020 SD como sendo 3.3V.
+* No sensor DHT11 é necessário um resistor de 10kΩ conectado as entradas VCC e de dados do componente.
