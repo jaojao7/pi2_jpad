@@ -1,6 +1,6 @@
 # Testes
 
-Está página trata da simulação e testes realizados individualmente das lógicas de funcionamento e da utilização dos sensores.
+Esta página trata da simulação e testes realizados individualmente das lógicas de funcionamento e da utilização dos sensores.
 
 ### Garagem (Servomotor)
 
