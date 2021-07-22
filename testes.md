@@ -8,10 +8,7 @@ Para o funcionamento do sistema de garagem o seguinte esquemático foi seguido p
 
 #### Figura 1 Esquemático
 <img src="./Arquivos/esquematico.jpg" width="1000">
-
-#### Figura 2 Código Garagem
-<img src="./Arquivos/codigogaragem.png" width="1000">
-
+#### Código da Garagem
 ~~~C++
 #include <Servo.h> // Inclui a biblioteca para servos motores
 
