@@ -8,3 +8,21 @@ Para a fabricação da maquete, foi utilizado uma maquete modelo sobrado já cor
 
 #### Figura 2 Medidas Maquete 2
 <img src="./Imagens/Medidas maquete1.png" width="600">
+
+#### Figura 3 Montagem 1
+<img src="./Imagens/montagem.jpg" width="500">
+
+#### Figura 4 Montagem 2
+<img src="./Imagens/montagem1.jpg" width="500">
+
+#### Figura 5 Montagem 3
+<img src="./Imagens/montagem2.jpg" width="500">
+
+#### Figura 6 Montagem Concluída 
+<img src="./Imagens/Maquete.png" width="500">
+
+#### Figura 7 Pintura
+<img src="./Imagens/pintada1.jpg" width="500">
+
+#### Figura 8 Pintura Finalizada
+<img src="./Imagens/pintada2.jpg" width="500">
