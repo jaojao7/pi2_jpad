@@ -13,15 +13,14 @@ Imagem |Componente   | Quantidade | Descrição/Utilização
 <img src="./Imagens/pir.png" width="100">|PIR|1|Sensor de presença
 <img src="./Imagens/bluetooth.png" width="100">|Módulo HC-05|1|Módulo Bluetooth
 <img src="./Imagens/conversor.png" width="100">|Conversor de Nível Lógico RC|1|Conversor de Nível Lógico RC Bidirecional
-<img src="./Imagens/player.png" width="100">|Modulo wtv020 sd|1|Utilizado na parte do alarme
-<img src="./Imagens/pam.png" width="100">|PAM8403|1|Amplificador Digital utilizado na parte do alarme 
+<img src="./Imagens/df.png" width="100">|Modulo DFPlayer|1|Utilizado na parte do alarme
 <img src="./Imagens/mb102.png" width="100">|Módulo MB102|1| Fonte de tensão ajustável
 <img src="./Imagens/auto.png" width="100">|Auto falante 0.5W 8Ω|1|Utilizado na parte do alarme
 <img src="./Imagens/servo.png" width="100">|Servomotor|1|Utilizado no mecanismo de entrada da garagem
 
 ###### Figura 1 - Esquemático do Projeto  
 
-<img src="./Imagens/projeto1.jpg" width="1000">
+<img src="./Imagens/projetofinal.jpg" width="1000">
 
 ### Algumas Observações:
 
