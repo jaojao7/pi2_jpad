@@ -102,11 +102,8 @@ void funcionamento(){
  f = dht.readTemperature(true);
   if (isnan(h) || isnan(t) || isnan(f)) {
     Serial.println("Falha na leitura do sensor DHT!");
-   return;
-
-  }
- }
-void mostra (){
+   return;}
+   else {};
  bluetooth.print("TEMP|");
  bluetooth.print(t);
  bluetooth.print("|UMID|");
@@ -135,7 +132,6 @@ verificacao();
 abrir();
 fechar();
 funcionamento();
-mostra();  
 delay (1000);
 }
 ~~~
