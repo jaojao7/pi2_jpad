@@ -46,13 +46,13 @@ if (bluetooth.available() > 0) {
   
 void fechar(){
   
-  if (incomingByte == 'G'){// se botão estiver pressionado (HIGH)
-    servo_motor.write(200);  // Fecha o portão
+  if (incomingByte == 'G'){
+    servo_motor.write(200); 
   }
 }
 void abrir (){
- if (incomingByte == 'F'){// se botão estiver pressionado (HIGH)
-    servo_motor.write(88); //Abre o portão
+ if (incomingByte == 'F'){
+    servo_motor.write(88); 
    }
 }
 void loop(){
