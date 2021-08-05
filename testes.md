@@ -12,8 +12,6 @@ Esta página trata dos testes realizados individualmente para cada bloco.
 
 Para o funcionamento do sistema de garagem o seguinte esquemático foi seguido para verificação do correto funcionamento do componente e se seu desempenho atende ao objetivo esperado.
 
-/*#### Figura 1 Esquemático
-<img src="./Arquivos/esquematico.jpg" width="1000">*/
 
 ##### Código da Garagem
 
@@ -27,14 +25,14 @@ Semestre 2021.1
 Objetivo: Verificar o funcionamento do sistema de abertura e fechamento da garagem utilizando o servomotor
 ***************************************************************************************************************/   
 #include "SoftwareSerial.h"
-#include <Servo.h> // Inclui a biblioteca para servos motores
+#include <Servo.h> 
 int incomingByte;
 SoftwareSerial bluetooth(10, 11);
-Servo servo_motor;  // Cria um objeto para o controle do servo
+Servo servo_motor; 
 void setup() {
 
- servo_motor.attach(50);  // Informa qual pino será usado para o servo declarado anteriormente
- pinMode(50, OUTPUT); // configura o pino como saída
+ servo_motor.attach(50);  
+ pinMode(50, OUTPUT); 
  bluetooth.begin(9600);
   
   }
