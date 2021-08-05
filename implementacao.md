@@ -111,11 +111,6 @@ void mostra (){
  bluetooth.print(t);
  bluetooth.print("|UMID|");
  bluetooth.print(h);
- Serial.print("|");
- Serial.print("1|");
- Serial.print(t);
- Serial.print("|2|");
- Serial.print(h);
  delay(5000);
   }
 
@@ -135,10 +130,10 @@ void abrir (){
 
 void loop() {
 estado();
-fechar();
-abrir();
-verificacao();
 alarme(); 
+verificacao();
+abrir();
+fechar();
 funcionamento();
 mostra();  
 delay (1000);
