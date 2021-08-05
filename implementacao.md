@@ -55,7 +55,7 @@ DHT dht(DHTPIN, DHTTYPE);
 Servo servo_motor; 
 SoftwareSerial mySoftwareSerial(12, 13);
 SoftwareSerial bluetooth(10, 11);
-int incomingByte,leitura,i,a=2,c=0; 
+int incomingByte,leitura,i; 
 bool gas;
 DFRobotDFPlayerMini myDFPlayer;
 float t,h,f;
