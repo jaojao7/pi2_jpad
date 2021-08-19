@@ -20,7 +20,7 @@ necessidade do usuário.
 
 ###### Figura 1 - Planta baixa Térreo casa maquete com indicação dos sensores.
 
-![PLANTABAIXAMODELOCASASENSORES](./Imagens/terreo.png) 
+![PLANTABAIXAMODELOCASASENSORES](./Imagens/terreo1.png) 
 ###### Figura 2 - Planta baixa Primeiro Andar casa maquete com indicação dos sensores.
 
 ![PLANTABAIXAMODELOCASASENSORES](./Imagens/primandar.png) 
