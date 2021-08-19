@@ -28,6 +28,8 @@ Para a fabricação da maquete, foi utilizado uma maquete modelo sobrado já cor
 
 ### Cógigo Principal
 
+~~~C++
+
 /**********************************************************************************************************
   Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina-Campus Florianópolis
   Unidade Curricular: Projeto Integrador II
@@ -203,3 +205,5 @@ void loop() {
   verificacao();
 
 }
+
+~~~
