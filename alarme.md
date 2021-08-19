@@ -73,7 +73,7 @@ void loop()
 
 # IMPORTANTE
 O modúlo de som Dfplayer mini necessita de um cartão microSD formatado em FAT32 para poder tocar o arquivo de áudio do alarme. 
-#### [Para baixar o arquivo mp3 do alarme clique aqui](https://github.com/jaojao7/pi2_jpad/blob/main/somarquivo.md)
+#### [Para baixar o arquivo mp3 do alarme clique aqui](https://github.com/jaojao7/pi2_jpad/raw/main/Arquivos/alarme1.mp3)
 
 
 ## [Para voltar a página referente aos testes realizados clique aqui](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
