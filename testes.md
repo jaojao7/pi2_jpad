@@ -1,10 +1,10 @@
 # Testes
 
 Para a etapa de testes, o conjunto de funcionalidades foi dividido nos seguintes blocos:
-* Iluminação
-* Alarme 
 * Garagem
 * Tempo
+* Alarme 
+* Iluminação
 
 Esta página trata dos testes realizados individualmente para cada bloco.
 
@@ -16,96 +16,99 @@ Para o funcionamento do sistema de garagem o seguinte esquemático foi seguido p
 ##### Código da Garagem
 
 ~~~C++
-/**************************************************************************************************************
-Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina-Campus Florianópolis
-Unidade Curricular: Projeto Integrador II
-Aluno: João Pedro de Araújo Duarte
-Semestre 2021.1
+/**********************************************************************************************************
+  Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina-Campus Florianópolis
+  Unidade Curricular: Projeto Integrador II
+  Aluno: João Pedro de Araújo Duarte
+  Semestre 2021.1
 
-Objetivo: Verificar o funcionamento do sistema de abertura e fechamento da garagem utilizando o servomotor
-***************************************************************************************************************/   
+  Objetivo: Verificar o funcionamento do sistema de abertura e fechamento da garagem utilizando o servomotor
+  com controle do aplicativo
+************************************************************************************************************/
+#define dados_servo 5
 #include "SoftwareSerial.h"
-#include <Servo.h> 
-int incomingByte;
-SoftwareSerial bluetooth(10, 11);
-Servo servo_motor; 
+#include <VarSpeedServo.h> // Inclui a biblioteca para servos motores com controle de velocidade da abertura
+int incomingByte; // Variável para armazenar o comando recebido pelo aplicativo
+VarSpeedServo servo_motor; // Cria um objeto para o controle do servo
+SoftwareSerial bluetooth(10, 11);// Descreve as portas para comunicação serial entre o bluetooth e o arduino ordem RX, TX
+
 void setup() {
+  Serial.begin(9600);
+  servo_motor.attach(dados_servo);  // Informa qual pino será usado para o servo declarado anteriormente
+  pinMode(dados_servo, OUTPUT); // configura o pino como saída
+  bluetooth.begin(9600); // Inicializa o módulo bluetooth
 
- servo_motor.attach(50);  
- pinMode(50, OUTPUT); 
- bluetooth.begin(9600);
-  
-  }
-void estado(){
-if (bluetooth.available() > 0) {
+}
+void estado() {
+  if (bluetooth.available() > 0) {
     incomingByte = bluetooth.read();
-}
-}
-  
-void fechar(){
-  
-  if (incomingByte == 'G'){
-    servo_motor.write(200); 
+    if (incomingByte == 'G') {
+      servo_motor.slowmove(200, 30); //Quando o botão 'fechar' no aplicativo é pressionado o arduino recebe a variável 'G' e executa a tarefa
+    }
+    else if (incomingByte == 'F') { //Quando o botão 'abrir' no aplicativo é pressionado o arduino recebe a variável 'F' e executa a tarefa
+      servo_motor.slowmove(88, 30);
+    }
   }
 }
-void abrir (){
- if (incomingByte == 'F'){
-    servo_motor.write(88); 
-   }
-}
-void loop(){
-  estado();
-  fechar();
-  abrir();
 
+void loop() {
+  estado();
 }
 ~~~
 ##### Código Temperatura
 ~~~C++
-/*
-Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina-Campus Florianópolis
-Unidade Curricular: Projeto Integrador II
-Aluno: João Pedro de Araújo Duarte
-Semestre 2021.1
+/******************************************************************************************
+  Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina-Campus Florianópolis
+  Unidade Curricular: Projeto Integrador II
+  Aluno: João Pedro de Araújo Duarte
+  Semestre 2021.1
 
-Objetivo: Verificar a temperatura e umidade no aplicativo do celular via Bluetooth
-*/ 
+  Objetivo: Verificar a temperatura e umidade no aplicativo do celular via Bluetooth
+*******************************************************************************************/
 #include "SoftwareSerial.h"
 #include "DHT.h"
-#define DHTPIN 53  
-#define DHTTYPE DHT11   
+#define DHTPIN 53
+#define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
-SoftwareSerial bluetooth(10, 11);
-float t,h,f;
+SoftwareSerial bluetooth(10, 11);// Descreve as portas para comunicação serial entre o bluetooth e o arduino ordem RX, TX
+float t, h, f; //Define as variáveis para armazenar os valores lidos pelo sensor
 void setup() {
-  Serial.begin(9600); 
-  dht.begin(); 
-  bluetooth.begin(9600);
-  delay(1000);
-
+  Serial.begin(9600); //Inicializa a serial
+  dht.begin(); //Inicializa o módulo DHT11
+  bluetooth.begin(9600); //Inicializa o módulo bluetooth
 }
-void funcionamento(){
- h = dht.readHumidity();
- t = dht.readTemperature();
- f = dht.readTemperature(true);
-  if (isnan(h) || isnan(t) || isnan(f)) {
-    Serial.println("Falha na leitura do sensor DHT!");
-   delay (1000);
-   return;
 
+long tempoAnterior = 0, tempoAnterior1 = 0; //  Variáveis para definir o controle do intervalo de operação de cada função
+
+void funcionamento() {
+  if (millis() >= tempoAnterior + 1000) { //Define que a leitura da variáveis acontece a cada 1000 milisegundos
+    tempoAnterior = millis(); //Responsável por zerar a diferença entre o tempo millis e condição tempoAnterior+500
+    h = dht.readHumidity();
+    t = dht.readTemperature();
+    f = dht.readTemperature(true);
+    if (isnan(h) || isnan(t) || isnan(f)) {
+      Serial.println("Falha na leitura do sensor DHT!");
+    }
   }
- }
-void mostra (){
- bluetooth.print("TEMP|");
- bluetooth.print(t);
- bluetooth.print("|UMID|");
- bluetooth.print(h);
- delay(1000);
+}
+void mostra () { //Função responsável por imprimir a leitura do sensor no monitor serial e também envia-lo ao aplicativo já previamente conectado
+  if (millis() >= tempoAnterior1 + 2000) {
+    tempoAnterior1 = millis();
+    bluetooth.print("TEMP|");
+    bluetooth.print(t);
+    bluetooth.print("|UMID|");
+    bluetooth.print(h);
+    Serial.print("|");
+    Serial.print("1|");
+    Serial.print(t);
+    Serial.print("|2|");
+    Serial.print(h);
   }
+}
 void loop() {
-funcionamento();
-mostra();
- 
+  funcionamento();
+  mostra();
+
 }
 ~~~
 
@@ -113,87 +116,66 @@ mostra();
 
 ~~~C++
 /****************************************************************************************
-Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina-Campus Florianópolis
-Unidade Curricular: Projeto Integrador II
-Aluno: João Pedro de Araújo Duarte
-Semestre 2021.1
+  Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina-Campus Florianópolis
+  Unidade Curricular: Projeto Integrador II
+  Aluno: João Pedro de Araújo Duarte
+  Semestre 2021.1
 
-Objetivo: Verificar o sensor de gás e acionar o som, caso o sensor de gás ative
-****************************************************************************************/ 
+  Objetivo: Verificar o sensor de gás e acionar o som de alerta, caso o sensor de gás ative
+****************************************************************************************/
 
 #include "Arduino.h"
 #include "SoftwareSerial.h"
-#include "DFRobotDFPlayerMini.h"
+#include "DFRobotDFPlayerMini.h" //Biblioteca do Dfplayer Mini
 #define entradaDigital 52
-#define entradaAnalogica 0
+#define entradaAnalogica A0
 
-SoftwareSerial mySoftwareSerial(12, 13); // RX, TX
-SoftwareSerial bluetooth(10, 11);
+SoftwareSerial mySoftwareSerial(12, 13); // Descreve as portas para comunicação serial entre o bluetooth e o arduino ordem RX, TX
 DFRobotDFPlayerMini myDFPlayer;
 bool gas;
-int leitura,incomingByte,i,a=2,c=0;
+int leitura, i;
 void setup()
 {
   pinMode(entradaDigital, INPUT);
-
   Serial.begin(9600);
-  bluetooth.begin(9600);
-   mySoftwareSerial.begin(9600);
-   //Verifica se o modulo esta respondendo e se o cartao SD foi encontrado
-   som();
+  mySoftwareSerial.begin(9600);
+  som();
   //Definicoes iniciais
   myDFPlayer.setTimeOut(500); //Timeout serial 500ms
-  myDFPlayer.EQ(5); 
-   // Ajusta Volume  
-  for(i=1;i<=10;i++){
-   myDFPlayer.volumeDown();
-   }
+  myDFPlayer.EQ(5);
+  // Ajusta Volume
+  for (i = 1; i <= 10; i++) {
+    myDFPlayer.volumeDown();
+  }
 }
-void som(){
-  Serial.println();
-  Serial.println(F("DFRobot DFPlayer Mini"));
-  Serial.println(F("Inicializando modulo DFPlayer... (3~5 segundos)"));
-  if (!myDFPlayer.begin(mySoftwareSerial))
-  {
-    Serial.println(F("Nao inicializado:"));
-    Serial.println(F("1.Cheque as conexoes do DFPlayer Mini"));
-    Serial.println(F("2.Insira um cartao SD"));
+void som() {
+
+  mySoftwareSerial.begin(9600);
+  // Vai esperar o software serial iniciar, mas se não iniciar, não tem feedback porque não tem outra serial
+  if (!myDFPlayer.begin(mySoftwareSerial)) {
     while (true);
   }
-  Serial.println();
-  Serial.println(F("Modulo DFPlayer Mini inicializado!"));
-
+}
+long tempoAnterior = 0;
+void verificacao() { //Função responsável por verificar os valores do sensor de gás e fumaça
+  if (millis() >= tempoAnterior + 1000) {
+    tempoAnterior = millis();
+    gas = digitalRead(entradaDigital);
+    leitura = analogRead(entradaAnalogica);
   }
-
-
-
-void tarefas(){
-if (bluetooth.available() > 0) {
-    incomingByte = bluetooth.read();
-  if (incomingByte =='S'){
-        myDFPlayer.stop(); 
-      }
 }
-}
-void verificacao(){
-gas = digitalRead(entradaDigital);
-leitura = analogRead(entradaAnalogica);
-
-}
-void alarme(){
-  if(gas==0){
-  myDFPlayer.start(); 
-      }
-   else {
-        myDFPlayer.stop(); 
-        }
+void alarme() { //Aciona o alarme dando play no módulo caso o sensor de gás e fumaça ative
+  if (gas == 0) {
+    myDFPlayer.start();
   }
+  else {
+    myDFPlayer.stop();
+  }
+}
 
 void loop()
 {
-tarefas();
-verificacao();
-alarme();   
-delay (1000);
+  verificacao();
+  alarme();
 }
 ~~~
