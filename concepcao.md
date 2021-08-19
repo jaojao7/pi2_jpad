@@ -24,3 +24,6 @@ necessidade do usuário.
 ###### Figura 2 - Planta baixa Primeiro Andar casa maquete com indicação dos sensores.
 
 ![PLANTABAIXAMODELOCASASENSORES](./Imagens/primandar.png) 
+
+Formam realizados alguns testes inicias antes de iniciar a implementação do funcionamento final
+*  ### [Para acessar a página referente aos testes realizados clique aqui](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
