@@ -42,3 +42,6 @@ Abaixo algumas imagens do aplicativo que será posteriormente utilizado para rea
 
 ###### Figura 5 - Tela Primeiro Andar 
 <img src="./Imagens/1andar.png" width="200">
+
+Formam realizados alguns testes inicias referentes aos sensores e as lógicas de funcionamento antes de iniciar a implementação do sistema final
+*  ### [Para acessar a página referente aos testes realizados clique aqui](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
