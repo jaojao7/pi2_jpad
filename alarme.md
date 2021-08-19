@@ -1,7 +1,7 @@
 # Alarme
 
 ## Esquemático
-Alrame.jpg
+![Alarme](./Imagens/Alarme.jpg) 
 
 #### Código Alarme
 
