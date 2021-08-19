@@ -1,6 +1,6 @@
 # Testes
 
-Para a etapa de testes, o conjunto de funcionalidades foi dividido nos seguintes blocos:
+Para a etapa de testes, o conjunto de funcionalidades foi dividido nos seguintes blocos, clique no tópico abaixo referente ao que deseja abrir:
 * Garagem
 * Tempo
 * Alarme 
