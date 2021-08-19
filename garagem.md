@@ -4,6 +4,8 @@
 
 Para o funcionamento do sistema de garagem o seguinte esquemático foi seguido para verificação do correto funcionamento do componente e se seu desempenho atende ao objetivo esperado.
 
+## Esquemático
+
 
 ##### Código da Garagem
 
@@ -48,5 +50,5 @@ void loop() {
 }
 ~~~
 
-## Esquemático
+
 
