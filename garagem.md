@@ -5,7 +5,7 @@
 Para o funcionamento do sistema de garagem o seguinte esquemático foi seguido para verificação do correto funcionamento do componente e se seu desempenho atende ao objetivo esperado.
 
 ## Esquemático
-
+<img src="./Imagens/garagem.jpg" width="1000">
 
 ##### Código da Garagem
 
