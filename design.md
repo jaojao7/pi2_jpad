@@ -35,10 +35,10 @@ Abaixo algumas imagens do aplicativo que será posteriormente utilizado para rea
 <img src="./Imagens/inicial1.png" width="200">
 
 ###### Figura 3 - Tela Principal  
-<img src="./Imagens/principal.png" width="200">
+<img src="./Imagens/principal1.png" width="200">
 
 ###### Figura 4 - Tela Térreo  
-<img src="./Imagens/terreo.png" width="200">
+<img src="./Imagens/terreo2.png" width="200">
 
 ###### Figura 5 - Tela Primeiro Andar 
 <img src="./Imagens/1andar.png" width="200">
