@@ -5,6 +5,7 @@ Para o bloco responsável por medir e informar a temperatura e umidade, utilizam
 
 ## Esquemático
 
+<img src="./Imagens/TEMPERATURA.jpg" width="1000">
 
 ##### Código Temperatura
 ~~~C++
