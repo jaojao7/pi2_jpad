@@ -2,7 +2,7 @@
 
 ## Garagem
 
-Para o teste do funcionamento do sistema de garagem o seguinte esquemático foi implementado para verificação do correto funcionamento do componente e se seu desempenho atende ao objetivo esperado, para este bloco utilizam-se os componentes Servo Motor e o módulo de comunicação com o aplicativo via Bluetooth.
+Esta seção trata do teste do funcionamento do sistema de garagem. Para verificação do correto funcionamento do componente e se seu desempenho atende ao objetivo esperado o esquemático abaixo foi implementado. Este bloco utilizam-se os componentes Servo Motor e o módulo de comunicação com o aplicativo via Bluetooth.
 
 ### Esquemático
 <img src="./Imagens/garagem.jpg" width="1000">
