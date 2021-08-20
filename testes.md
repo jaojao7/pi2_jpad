@@ -9,4 +9,4 @@ Para a etapa de testes, o conjunto de funcionalidades foi dividido nos seguintes
 Esta página trata dos testes realizados individualmente para cada bloco.
 
 
-
+[PARA VOLTAR AO INÍCIO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad)
