@@ -20,8 +20,8 @@ Esta seção trata da verificação da lógica de funcionamento do sistema de al
 #include "Arduino.h"
 #include "SoftwareSerial.h"
 #include "DFRobotDFPlayerMini.h" //Biblioteca do Dfplayer Mini
-#define entradaDigital 52
-#define entradaAnalogica A0
+#define ENTRADA_DIGITAL 52
+#define ENTRADA_ANALOGICA A0
 
 SoftwareSerial mySoftwareSerial(12, 13); // Descreve as portas para comunicação serial entre o bluetooth e o arduino ordem RX, TX
 DFRobotDFPlayerMini myDFPlayer;
@@ -29,7 +29,7 @@ bool gas;
 int leitura, i;
 void setup()
 {
-  pinMode(entradaDigital, INPUT);
+  pinMode(ENTRADA_DIGITAL, INPUT);
   Serial.begin(9600);
   mySoftwareSerial.begin(9600);
   som();
@@ -53,8 +53,8 @@ long tempoAnterior = 0;
 void verificacao() { //Função responsável por verificar os valores do sensor de gás e fumaça
   if (millis() >= tempoAnterior + 1000) {
     tempoAnterior = millis();
-    gas = digitalRead(entradaDigital);
-    leitura = analogRead(entradaAnalogica);
+    gas = digitalRead(ENTRADA_DIGITAL);
+    leitura = analogRead(ENTRADA_ANALOGICA);
   }
 }
 void alarme() { //Aciona o alarme dando play no módulo caso o sensor de gás e fumaça ative
