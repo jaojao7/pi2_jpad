@@ -64,7 +64,11 @@ void loop() {
 }
 ~~~
 # IMPORTANTE
-É importante ressaltar a utilização de um resistor de 10KΩ entre a entrada VCC e de DADOS do DHT11. Antes de abrir as informações de leitura no aplicativo é sugerido que verifique as medidas no monitor serial do IDE Arduino, para conferir se estão de acordo com o esperado.
+É importante ressaltar a utilização de um resistor de 10KΩ entre a entrada VCC e de DADOS do DHT11. Antes de abrir as informações de leitura no aplicativo é sugerido que verifique as medidas no monitor serial do IDE Arduino, para conferir se estão de acordo com o esperado. O aplicativo fornece quatro imagens de termômetro que indicam intervalos de temperatura distintos. 
+
+## Informações adicionais acerca do aplicativo
+
+O aplicativo fornece quatro imagens descritivas no termômetro para indicar intervalos de temperatura distintos, como mostra as imagens abaixo:
 
 
  #### [PARA VOLTAR A PÁGINA DOS TESTES CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
