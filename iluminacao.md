@@ -1,4 +1,5 @@
 # Iluminação
+Esta seção trata da montagem do bloco de iluminação para realização de possíveis testes que se fizerem necessários. Fazem parte deste bloco os componentes de iluminação (LED'S, e sensor PIR) além claro do módulo de comunicação com o aplicativo via Bluetooth.
 
 ## Esquemático
 <img src="./Imagens/ILUMINACAO.png" width="1000">
