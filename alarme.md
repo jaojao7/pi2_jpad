@@ -1,4 +1,6 @@
 # Alarme
+Esta seção trata da verificação da lógica de funcionamento do sistema de alarme contra gases tóxicos e fumaça. Para este bloco são utilizados os componentes, Dfplayer Mini, MQ-2, autofalante de baixa impedância, e o módulo conversor de nivél lógico RC.
+
 
 ## Esquemático
 ![Alarme](./Imagens/Alarme.jpg) 
@@ -72,7 +74,7 @@ void loop()
 ~~~
 
 # IMPORTANTE
-O modúlo de som Dfplayer mini necessita de um cartão microSD formatado em FAT32 para poder tocar o arquivo de áudio do alarme. 
+O modúlo de som Dfplayer mini necessita de um cartão microSD formatado em FAT32 para poder tocar o arquivo de áudio do alarme. A entrada de dados RX do módulo deve passar pelo conversor de nível lófico RC como descrito no esquemático acima, para que a comunicação com o arduino ocorra de forma  correta.
 #### [Para baixar o arquivo mp3 do alarme clique aqui](https://github.com/jaojao7/pi2_jpad/raw/main/Arquivos/alarme1.mp3)
 
 
