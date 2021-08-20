@@ -60,3 +60,4 @@ void loop() {
 }
 ~~~
 
+ #### [PARA VOLTAR A PÁGINA DOS TESTES CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
