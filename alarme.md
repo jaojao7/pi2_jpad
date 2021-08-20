@@ -42,12 +42,12 @@ void setup()
   }
 }
 void som() {
-
   mySoftwareSerial.begin(9600);
-  // Vai esperar o software serial iniciar, mas se não iniciar, não tem feedback porque não tem outra serial
-  if (!myDFPlayer.begin(mySoftwareSerial)) {
-    while (true);
-  }
+    while (!myDFPlayer.begin(mySoftwareSerial)) {
+      Serial.println("Aguardando som");
+
+    }
+  delay (1000);
 }
 long tempoAnterior = 0;
 void verificacao() { //Função responsável por verificar os valores do sensor de gás e fumaça
