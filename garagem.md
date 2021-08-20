@@ -1,10 +1,10 @@
 # Teste Garagem
 
-### Garagem (Servomotor)
+## Garagem
 
-Para o funcionamento do sistema de garagem o seguinte esquemático foi seguido para verificação do correto funcionamento do componente e se seu desempenho atende ao objetivo esperado.
+Para o teste do funcionamento do sistema de garagem o seguinte esquemático foi implementado para verificação do correto funcionamento do componente e se seu desempenho atende ao objetivo esperado, para este bloco utilizam-se os componentes Servo Motor e o módulo de comunicação com o aplicativo via Bluetooth.
 
-## Esquemático
+### Esquemático
 <img src="./Imagens/garagem.jpg" width="1000">
 
 ##### Código da Garagem
@@ -49,6 +49,9 @@ void loop() {
   estado();
 }
 ~~~
+# IMPORTANTE
+A alimentação externa do servo motor é sempre preferível para evitar possíveis problemas, caso a utilização de alimentação externa seja implementada, não se deve esquecer de aterrar o módulo de alimentação externa a placa do arduino, como descrito no esquemático. Caso isso não seja realizado, o arduino não consegiuirá se comunicar com o servo e o mesmmo não responderá a nenhum comando descrito no código.
+
 
  #### [PARA VOLTAR A PÁGINA DOS TESTES CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
 
