@@ -76,4 +76,4 @@ O modúlo de som Dfplayer mini necessita de um cartão microSD formatado em FAT3
 #### [Para baixar o arquivo mp3 do alarme clique aqui](https://github.com/jaojao7/pi2_jpad/raw/main/Arquivos/alarme1.mp3)
 
 
-## [Para voltar a página referente aos testes realizados clique aqui](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
+ #### [PARA VOLTAR A PÁGINA DOS TESTES CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
