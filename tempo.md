@@ -1,4 +1,7 @@
-# Temperatura
+# Tempo
+
+Para o bloco responsável por medir e informar a temperatura e umidade, utilizamos  a configuração demonstrada abaixo, onde temos o sensor DHT11 responsável pelas leituras, e o bloco de comuniacação Bluetooth que envia as informações lidas para o aplicativo.
+
 
 ## Esquemático
 
