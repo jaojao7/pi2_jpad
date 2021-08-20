@@ -91,6 +91,6 @@ void loop() {
 }
 ~~~
 # IMPORTANTE
-Atenção as conexões referentes ao código e ao esquemático que podem não ser as mesmas, mas é importante ressaltar que basta ajustar o código a sua condição de montagem, onde o esquemático demonstra em que categoria de pinos cada componente deverá ser conectado. O ânodo dos LED's conectados as entradas digitais e o cátodo no GND.
+É necessário atenção, pois as conexões dos LED's descritas no código acima podem diferir do esquemático, mas, é importante ressaltar que o esquemático é apenas uma ilustração indicativa. Caso for realizar a montagem desta seção, basta ajustar o código de acordo com a sua condição de montagem. O esquemático demonstra em que categoria de pinos cada componente deverá ser conectado. A exemplo os próprios LED's, onde o ânodo devem ser conectado as entradas digitais e o cátodo no GND.
 
  #### [PARA VOLTAR A PÁGINA DOS TESTES CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
