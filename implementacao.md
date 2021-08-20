@@ -30,5 +30,6 @@ Para a fabricação da maquete, foi utilizado uma maquete modelo sobrado já cor
 
 
 ### [PARA BAIXAR O APK DO APLICATIVO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/raw/main/Arquivos/JPAD_automacao.apk)
+(Após baixado, basta clicar no arquivo e instalar o mesmo normalmente em seu dispositivo Android)
 
 [PARA VOLTAR AO INÍCIO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad)
