@@ -1,7 +1,7 @@
 # Iluminação
 
 ## Esquemático
-
+<img src="./Imagens/ILUMINACAO.png" width="1000">
 
 #### Código Iluminação
 ~~~C++
@@ -90,6 +90,7 @@ void loop() {
   presenca();
 }
 ~~~
-
+# IMPORTANTE
+Atenção as conexões referentes ao código e ao esquemático que podem não ser as mesmas, mas é importante ressaltar que basta ajustar o código a sua condição de montagem, onde o esquemático demonstra em que categoria de pinos cada componente deverá ser conectado. O ânodo dos LED's conectados as entradas digitais e o cátodo no GND.
 
  #### [PARA VOLTAR A PÁGINA DOS TESTES CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
