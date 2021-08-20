@@ -64,7 +64,7 @@ void loop() {
 }
 ~~~
 # IMPORTANTE
-É importante ressaltar a utilização de um resistor de 10KΩ entre a entrada VCC e de DADOS do DHT11, antes de verificar no aplicativo é sugerido que verifique no monitor serial do IDE Arduino, para verificar se as leituras estão de acordo com o esperado.
+É importante ressaltar a utilização de um resistor de 10KΩ entre a entrada VCC e de DADOS do DHT11. Antes de abrir as informações de leitura no aplicativo é sugerido que verifique as medidas no monitor serial do IDE Arduino, para conferir se estão de acordo com o esperado.
 
 
  #### [PARA VOLTAR A PÁGINA DOS TESTES CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
