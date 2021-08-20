@@ -1,6 +1,6 @@
 # Tempo
 
-Para o bloco responsável por medir e informar a temperatura e umidade, utilizamos  a configuração demonstrada abaixo, onde temos o sensor DHT11 responsável pelas leituras, e o bloco de comuniacação Bluetooth que envia as informações lidas para o aplicativo.
+Esta seção trata do bloco responsável por medir e informar a temperatura e umidade. Utilizamos  a configuração demonstrada abaixo, onde temos o sensor DHT11 responsável pelas leituras, e o bloco de comuniacação Bluetooth que envia as informações lidas para o aplicativo.
 
 
 ## Esquemático
@@ -63,5 +63,8 @@ void loop() {
 
 }
 ~~~
+# IMPORTANTE
+É importante ressaltar a utilização de um resistor de 10KΩ entre a entrada VCC e de DADOS do DHT11, antes de verificar no aplicativo é sugerido que verifique no monitor serial do IDE Arduino, para verificar se as leituras estão de acordo com o esperado.
+
 
  #### [PARA VOLTAR A PÁGINA DOS TESTES CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
