@@ -1,5 +1,5 @@
 # Alarme
-Esta seção trata da verificação da lógica de funcionamento do sistema de alarme contra gases tóxicos e fumaça. Para este bloco são utilizados os componentes, Dfplayer Mini, MQ-2, autofalante de baixa impedância, e o módulo conversor de nivél lógico RC.
+Esta seção trata da verificação da lógica de funcionamento do sistema de alarme contra gases tóxicos e fumaça. Para este bloco são utilizados os componentes, Dfplayer Mini, MQ-2, autofalante e o módulo conversor de nivél lógico RC.
 
 
 ## Esquemático
