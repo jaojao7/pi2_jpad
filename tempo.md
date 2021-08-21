@@ -71,15 +71,15 @@ void loop() {
 O aplicativo fornece quatro imagens descritivas no termômetro para indicar intervalos de temperatura distintos, como mostra as imagens abaixo:
 
 #### Temperaturas menores de 15ºC
-<img src="./Imagens/015.jpg" width="100">
+<img src="./Imagens/015.jpg" width="80">
 
 #### Temperaturas dentro do intervalo de [15ºC - 25ºC]
-<img src="./Imagens/1525.jpg" width="100">
+<img src="./Imagens/1525.jpg" width="80">
 
 #### Temperaturas dentro do intervalo de (25ºC - 35ºC]
-<img src="./Imagens/2535.jpg" width="100">
+<img src="./Imagens/2535.jpg" width="80">
 
 #### Temperaturas maiores de 35ºC  
-<img src="./Imagens/35.jpg" width="100">
+<img src="./Imagens/35.jpg" width="80">
 
  #### [PARA VOLTAR A PÁGINA DOS TESTES CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
