@@ -1,6 +1,4 @@
-# Teste Garagem
-
-## Garagem
+#  Garagem
 
 Esta seção trata do teste do funcionamento do sistema da garagem. Para verificação do correto funcionamento do componente e se seu desempenho atende ao objetivo esperado o esquemático abaixo foi implementado. Este bloco utilizam-se os componentes Servo Motor e o módulo de comunicação com o aplicativo via Bluetooth.
 
