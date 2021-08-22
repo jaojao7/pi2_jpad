@@ -48,7 +48,7 @@ void loop() {
 }
 ~~~
 # IMPORTANTE
-A alimentação externa do servo motor é sempre preferível para evitar possíveis problemas, caso a utilização de alimentação externa seja implementada, não se deve esquecer de aterrar o módulo de alimentação externa a placa do arduino, como descrito no esquemático. Caso isso não seja realizado, o arduino não conseguirá se comunicar com o servo e o mesmmo não responderá a nenhum comando descrito no código.
+A alimentação externa do servo motor é sempre preferível para evitar possíveis problemas, caso a utilização de alimentação externa seja implementada, não se deve esquecer de aterrar o módulo de alimentação externa a placa do arduino, como descrito no esquemático. Caso isso não seja realizado, o arduino não conseguirá se comunicar com o servo e o mesmo não responderá a nenhum comando descrito no código.
 
 
  #### [PARA VOLTAR A PÁGINA DOS TESTES CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
