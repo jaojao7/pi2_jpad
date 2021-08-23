@@ -61,7 +61,7 @@ void setup() {
   servo_motor.attach(DADOS_SERVO); //Declara qual pino será utilizado para controle do servo motor
   myDFPlayer.setTimeOut(500); 
   som(); //Função para checar a inicialização do módulo Dfplayer
-  //A utilização do for comentado abaixo é controlar o volume do alarme, descomente o bloco para utilizar
+  //A utilização do for comentado abaixo é controlar o volume do alarme, descomente o bloco para utilizar. O volume varia de 0 a 30 níveis, substitua o valor '10' pela quantidade que deseja diminuir do volume total
   /*for (i = 1; i <= 10; i++) {
     myDFPlayer.volumeDown();
     }*/
