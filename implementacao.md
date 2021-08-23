@@ -27,7 +27,7 @@ Para a fabricação da maquete, foi utilizado uma maquete modelo sobrado já cor
 <img src="./Imagens/pintada2.jpg" width="500">
 
 ### Cógigo Principal
-### [PARA ACESSAR O CÓDIGO CLIQUE AQUI (https://github.com/jaojao7/pi2_jpad/blob/main/Arquivos/Projeto_Final.ino)
+### [PARA ACESSAR O CÓDIGO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/Arquivos/Projeto_Final.ino)
 
 #### [PARA BAIXAR O APK DO APLICATIVO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/raw/main/Arquivos/JPAD_automacao.apk)
 (Após baixado, basta clicar no arquivo e instalar o mesmo normalmente em seu dispositivo Android)
