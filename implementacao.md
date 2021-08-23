@@ -1,6 +1,6 @@
-# Implementação
+# IMPLEMENTAÇÃO
 
-## Maquete
+## MAQUETE
 Para a fabricação da maquete, foi utilizado uma maquete modelo sobrado já cortada em MDF, devidamente montada e pintada para posteriormente receber toda a parte eletroeletrônica do projeto, a seguir as medidas da maquete e fotos ilustrativas da montagem:
 #### Figura 1 Medidas Maquete 1
 <img src="./Imagens/Medidas maquete.png" width="600">
@@ -26,9 +26,10 @@ Para a fabricação da maquete, foi utilizado uma maquete modelo sobrado já cor
 #### Figura 8 Pintura Finalizada
 <img src="./Imagens/pintada2.jpg" width="500">
 
-## Cógigo Principal
+## CÓDIGO PRINCIPAL
 ### [PARA ACESSAR O CÓDIGO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/Arquivos/Projeto_Final.ino)
-------------------------------------------------------------------------------------------------------------------------------------------
+
+## APLICATIVO
 #### [PARA BAIXAR O APK DO APLICATIVO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/raw/main/Arquivos/JPAD_automacao.apk)
 (Após baixado, basta clicar no arquivo e instalar o mesmo normalmente em seu dispositivo Android)
 
