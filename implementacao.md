@@ -51,7 +51,7 @@ Em seguida, foram instalados o servomotor e o sensor de gases :
 <img src="./Imagens/IMG_20210826_110613.jpg" width="300">
 
 #### Figura 14 Sensor de gases e fumaça
-<img src="./Imagens/gas.jpg" width="300">
+<img src="./Imagens/gas1.jpg" width="300">
 
 E por fim foi feita todas as conexões dos sensores e LED's:
 
