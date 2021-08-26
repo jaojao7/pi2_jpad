@@ -29,7 +29,44 @@ Para a fabricação da maquete, foi utilizado uma maquete modelo sobrado já cor
 ## CÓDIGO PRINCIPAL
 ### [PARA ACESSAR O CÓDIGO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/Arquivos/Projeto_Final.ino)
 
-## APLICATIVO
+## IMPLEMENTAÇÃO DOS CIRCUITOS A MAQUETE
+Primeiro os LED's foram soldados aos resistores e colados nos devidos locais destinados, na laje da maquete:
+#### Figura 9 Colocação dos LED's 
+<img src="./Imagens/soldalampada.jpg" width="300">
+
+#### Figura 10 Colagem dos LED's
+<img src="./Imagens/furolampada.jpg" width="300">
+
+Após isso foi realizada a conexão dos LED's nos fios:
+
+#### Figura 11 Conexão LED's
+<img src="./Imagens/conexaolampadas.jpg" width="300">
+
+#### Figura 12 Passagem dos fios para o andar de cima 
+<img src="./Imagens/conexaolampadas2.jpg" width="300">
+
+Em seguida, foram instalados o servomotor, o sensor de gases e o sensor de presença.
+
+#### Figura 13 Servo motor 
+<img src="./Imagens/IMG_20210826_110613.jpg" width="300">
+
+#### Figura 14 Sensor de gases e fumaça
+<img src="./Imagens/gas.jpg" width="300">
+
+E por fim foi feita todas as conexões dos sensores e LED's:
+
+#### Figura 15 Conexões Gerais
+<img src="./Imagens/fios2.jpg" width="300">
+
+E realizado testes da montagem para verificação dos resultados
+#### Figura 16 Teste geral - Iluminação
+<img src="./Imagens/casaluz.jpg" width="300">
+
+#### Figura 17 Teste geral - Garagem e entrada
+<img src="./Imagens/casa.jpg" width="300">
+
+
+## APLICATIVO PARA CONTROLE 
 #### [PARA BAIXAR O APK DO APLICATIVO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/raw/main/Arquivos/JPAD_automacao.apk)
 (Após baixado, basta clicar no arquivo e instalar o mesmo normalmente em seu dispositivo Android)
 
