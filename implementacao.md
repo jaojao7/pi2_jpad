@@ -45,7 +45,7 @@ Após isso foi realizada a conexão dos LED's nos fios:
 #### Figura 12 Passagem dos fios para o andar de cima 
 <img src="./Imagens/conexaolampadas2.jpg" width="300">
 
-Em seguida, foram instalados o servomotor, o sensor de gases e o sensor de presença.
+Em seguida, foram instalados o servomotor e o sensor de gases :
 
 #### Figura 13 Servo motor 
 <img src="./Imagens/IMG_20210826_110613.jpg" width="300">
