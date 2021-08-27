@@ -65,10 +65,11 @@ E realizado testes da montagem para verificação dos resultados
 ## CÓDIGO PRINCIPAL
 ### [PARA ACESSAR O CÓDIGO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/Arquivos/Projeto_Final.ino)
 
-## FUNCIONAMENTO
+## FUNCIONAMENTO DO CÓDIGO
 
 Abaixo foi montado um fluxograma para melhor compreensão e explicação do fluxo principal de funcionamento:
 
+<img src="./Imagens/FLUXOGRAMA DE FUNCIONAMENTO DO CÓDIGO.pdf_page_1.jpg" width="300">
 
 ## APLICATIVO PARA CONTROLE 
 #### [PARA BAIXAR O APK DO APLICATIVO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/raw/main/Arquivos/JPAD_automacao.apk)
