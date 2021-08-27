@@ -26,9 +26,6 @@ Para a fabricação da maquete, foi utilizado uma maquete modelo sobrado já cor
 #### Figura 8 Pintura Finalizada
 <img src="./Imagens/pintada2.jpg" width="300">
 
-## CÓDIGO PRINCIPAL
-### [PARA ACESSAR O CÓDIGO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/Arquivos/Projeto_Final.ino)
-
 ## IMPLEMENTAÇÃO DOS CIRCUITOS A MAQUETE
 Primeiro os LED's foram soldados aos resistores e colados nos devidos locais destinados, na laje da maquete:
 #### Figura 9 Colocação dos LED's 
@@ -64,6 +61,13 @@ E realizado testes da montagem para verificação dos resultados
 
 #### Figura 17 Teste geral - Garagem e entrada
 <img src="./Imagens/casa.jpg" width="300">
+
+## CÓDIGO PRINCIPAL
+### [PARA ACESSAR O CÓDIGO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/Arquivos/Projeto_Final.ino)
+
+## FUNCIONAMENTO
+
+Abaixo foi montado um fluxograma para melhor compreensão e explicação do fluxo principal de funcionamento:
 
 
 ## APLICATIVO PARA CONTROLE 
