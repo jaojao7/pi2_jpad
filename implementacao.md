@@ -69,7 +69,16 @@ E realizado testes da montagem para verificação dos resultados
 
 Abaixo foi montado um fluxograma para melhor compreensão e explicação do fluxo principal de funcionamento:
 
-<img src="./Imagens/FLUXOGRAMA DE FUNCIONAMENTO DO CÓDIGO.pdf_page_1.jpg" width="300">
+<img src="./Imagens/FLUXOGRAMA DE FUNCIONAMENTO DO CÓDIGO.pdf_page_1.jpg" width="1000">
+
+Podemos dividir o fluxograma de funcionamento acima em duas partes principais, a formada pelos tarefas dentro dos retângulos na primeira linha, onde representa a função setup que é a primeira a ser executada pelo Arduino, e outra região repesentada pelas tarefas dentro das elipses que corresponde a execução da função loop do Arduino.
+
+### Função Setup
+A função setup conforme visto na representação executa uma série de comandos para inicializr a comunicação com os módulos e sensores, além disso já realiza a tarefa de verificação do módulo de som e a execução da dimuição do volume.
+
+### Função Loop
+A função loop chama diversas outras funções que são as responsáveis para a execução do conjunto de tarefas do sistema. Para melhor explicação essa parte da execução do código foi divida em quatro etapas que são executadas de forma conjunta:
+* 
 
 ## APLICATIVO PARA CONTROLE 
 #### [PARA BAIXAR O APK DO APLICATIVO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/raw/main/Arquivos/JPAD_automacao.apk)
