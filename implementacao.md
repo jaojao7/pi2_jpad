@@ -71,7 +71,7 @@ Abaixo foi montado um fluxograma para melhor compreensão e explicação do flux
 
 <img src="./Imagens/FLUXOGRAMA DE FUNCIONAMENTO DO CÓDIGO.pdf_page_1.jpg" width="1000">
 
-Podemos dividir o fluxograma de funcionamento acima em duas partes principais, a formada pelas tarefas dentro dos retângulos logo após a inicizalização, onde os mesmos representam a função setup, que é a primeira a ser executada pelo Arduino. Outra região repesentada pelas tarefas dentro das elipses correspondem a execução da função loop do Arduino.
+Podemos dividir o fluxograma de funcionamento acima em duas partes principais, a formada pelas tarefas dentro dos retângulos logo após a inicialização, onde os mesmos representam a função setup, que é a primeira a ser executada pelo Arduino. Outra região repesentada pelas tarefas dentro das elipses correspondem a execução da função loop do Arduino.
 
 ### Função Setup
 A função setup conforme visto na representação acima, executa uma série de comandos para inicializar a comunicação com os módulos e sensores, além disso, já realiza a tarefa de verificação do módulo de som e a execução da dimuição do volume do mesmo. Ela é executada somente uma única vez.
