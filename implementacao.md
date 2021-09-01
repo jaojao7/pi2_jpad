@@ -3,10 +3,10 @@
 ## MAQUETE
 Para a fabricação da maquete, foi utilizado uma maquete modelo sobrado já cortada em MDF, devidamente montada e pintada para posteriormente receber toda a parte eletroeletrônica do projeto, a seguir as medidas da maquete e fotos ilustrativas da montagem:
 #### Figura 1 Medidas Maquete 1
-<img src="./Imagens/Medidas maquete.png" width="1000">
+<img src="./Imagens/Medidas maquete.png" width="800">
 
 #### Figura 2 Medidas Maquete 2
-<img src="./Imagens/Medidas maquete1.png" width="1000">
+<img src="./Imagens/Medidas maquete1.png" width="800">
 
 #### Figura 3 Montagem 1
 <img src="./Imagens/montagem.jpg" width="300">
