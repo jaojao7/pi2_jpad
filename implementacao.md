@@ -84,7 +84,7 @@ A função loop é responsável por chamar diversas outras funções que são as
 * 3-Responsável pelo sistema do alarme. O programa realiza uma leitura a cada 1 segundo dos valores de concentração de gases e fumaça que o sensor MQ-2 envia. Caso o valor atinga uma quantidade significativa, o sensor é acionado e então ocorre a execução do comando para dar play no alarme no sistema de som. Caso negativo, ele aguarda 1 segundo e realiza uma nova leitura.
 * 4-Responsável por realizar os comando do Bluetooth. Esse bloco funciona verificando continuamente se houve o recebimento de algum dado vindo do módulo Bluetooth,caso positivo o programa executa o comando referente a informação recebida. Caso negativo, o programa volta a verificar continuamente se há algum recebimento de dado. Esse bloco também possui uma temporização independente.
 
-É importante ressaltar que, após a verificação postiva e a posteiror execução dos comandos dos blocos acima, a função loop volta ao estado de leitua inicial completando o ciclo. Isso é indicado pela seta azul, demonstrando o retorno da função após sua execução. 
+É importante ressaltar que, após a execução das tarefas referentes dentro da função loop, a mesma retorna ao estado de leitura inicial completando o ciclo. Isso é indicado pela seta em azul, demonstrando o retorno da função após sua execução, novamente reafirmo que as funções tarefas dentro da função loop são executadas de maneira conjunta, não havendo interdependência de um bloco para outro. 
 ## APLICATIVO PARA CONTROLE 
 #### [PARA BAIXAR O APK DO APLICATIVO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/raw/main/Arquivos/JPAD_automacao.apk)
 (Após baixado, basta clicar no arquivo e instalar o mesmo normalmente em seu dispositivo Android)
