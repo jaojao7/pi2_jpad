@@ -74,22 +74,23 @@ Abaixo foi montado um fluxograma para melhor compreensão e explicação do flux
 Podemos dividir o fluxograma de funcionamento acima em duas partes principais, a formada pelas tarefas dentro dos retângulos logo após a inicialização, onde os mesmos representam a função setup, que é a primeira a ser executada pelo Arduino. Outra região repesentada pelas tarefas dentro das elipses correspondem a execução da função loop do Arduino.
 
 ### Função Setup
-  A função setup conforme visto na representação acima, executa uma série de comandos para inicializar a comunicação com os módulos e sensores, além disso, já realiza a tarefa de verificação do módulo de som e a execução da dimuição do volume do mesmo. Ela é executada somente uma única vez.
+A função setup conforme visto na representação acima, executa uma série de comandos para inicializar a comunicação com os módulos e sensores, além disso, já realiza a tarefa de verificação do módulo de som e a execução da dimuição do volume do mesmo. Ela é executada somente uma única vez.
 
 ### Função Loop
-  A função loop é responsável por chamar diversas outras funções que são as responsáveis para a execução do conjunto de tarefas do sistema. Para melhor explicação, essa parte da execução do código foi divida em quatro etapas que são executadas de forma conjunta e serão melhores trabalhadas nos tópicos abaixo:
+  
+A função loop é responsável por chamar diversas outras funções que são as responsáveis para a execução do conjunto de tarefas do sistema. Para melhor explicação, essa parte da execução do código foi divida em quatro etapas que são executadas de forma conjunta e serão melhores trabalhadas nos tópicos abaixo:
 
 * 1 - Responsável por medir a temperatura e umidade, esse bloco funciona da seguinte maneira: Primeiro ele mede a temperatura e umidade, armazenas os valores lidos em variáveis distintas, aguarda 1 segundo e envia as informações armazenadas para o módulo Bluetooth, onde é posteriormente enviado ao celular. O tempo total de execução desse bloco é de 3 segundos.
 * 2- Responsável por acionar a luz de entrada conforme a detecção de presença é verificada. O programa verifica constantemente se o sensor de presença é ativado. Caso positivo, ocorre a execução da tarefa responsável por acionar a luz de entrada. Caso negativo, ele volta a verificar se o sensor passa a ser ativado. Esse bloco possui uma temporização independente.
 * 3-Responsável pelo sistema do alarme. O programa realiza uma leitura a cada 1 segundo dos valores de concentração de gases e fumaça que o sensor MQ-2 envia. Caso o valor atinga uma quantidade significativa, o sensor é acionado e então ocorre a execução do comando para dar play no alarme no sistema de som. Caso negativo, ele aguarda 1 segundo e realiza uma nova leitura.
 * 4-Responsável por realizar os comando do Bluetooth. Esse bloco funciona verificando continuamente se houve o recebimento de algum dado vindo do módulo Bluetooth,caso positivo o programa executa o comando referente a informação recebida. Caso negativo, o programa volta a verificar continuamente se há algum recebimento de dado. Esse bloco também possui uma temporização independente.
 
-  É importante ressaltar que, após a execução das tarefas referentes dentro da função loop, a mesma retorna ao estado de leitura inicial completando o ciclo. Isso é indicado pela seta em azul, demonstrando o retorno da função após sua execução. Novamente reafirmo que as funções tarefas dentro da função loop são executadas de maneira conjunta, não havendo interdependência de um bloco para outro. 
+É importante ressaltar que, após a execução das tarefas referentes dentro da função loop, a mesma retorna ao estado de leitura inicial completando o ciclo. Isso é indicado pela seta em azul, demonstrando o retorno da função após sua execução. Novamente reafirmo que as funções tarefas dentro da função loop são executadas de maneira conjunta, não havendo interdependência de um bloco para outro. 
 ## APLICATIVO PARA CONTROLE 
-  A parte de controle da casa será realizada via aplicativo desenvolvido unicamente para este objetivo. Abaixo temos uma explicação da utilização deste APP e uma breve explicação da sua lógica de funcionamento.
-Após a sua inicialização, a tela abaixo será apresentada. Nesta etapa é necessário realizar o login para entrar no aplicativo. Por padrão o login é:
-Usuário: IFSC
-Senha: pi2
+A parte de controle da casa será realizada via aplicativo desenvolvido unicamente para este objetivo. Abaixo temos uma explicação da utilização deste APP e uma breve explicação da sua lógica de funcionamento.
+<br />Após a sua inicialização, a tela abaixo será apresentada. Nesta etapa é necessário realizar o login para entrar no aplicativo. Por padrão o login é:<br />
+<br />Usuário: IFSC
+<br />Senha: pi2
 
 Caso a senha e\ou usuário digitados não correspondam o aplicativo informará o erro e não permitirá o acesso as outras páginas.
 
