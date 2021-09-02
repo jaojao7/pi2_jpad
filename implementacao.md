@@ -65,7 +65,7 @@ E realizado testes da montagem para verificação dos resultados
 <img src="./Imagens/casa.jpg" width="300">
 
 ## CÓDIGO PRINCIPAL
-### [PARA ACESSAR O CÓDIGO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/Arquivos/Codigo_Final.ino)
+### [Para acessar o código clique aqui.](https://github.com/jaojao7/pi2_jpad/blob/main/Arquivos/Codigo_Final.ino)
 
 ## FUNCIONAMENTO DO CÓDIGO
 
