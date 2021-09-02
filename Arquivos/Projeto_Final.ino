@@ -65,6 +65,7 @@ void setup() {
   /*for (i = 1; i <= 10; i++) {
     myDFPlayer.volumeDown();
     }*/
+servo_motor.slowmove(160, 100);//Utilizado para garantir a garagem fechada inicialmente
 }
 void tarefas() { //Função responsável por realizar todo o controle das funções que dependem do comando do aplicativo via Bluetooth
   bluetooth.listen(); //Importante sua utilização para dizer o arduino que deseja-se comunicar com o módulo Bluetooth
@@ -85,10 +86,10 @@ void tarefas() { //Função responsável por realizar todo o controle das funç�
         digitalWrite(GARAGEM, !digitalRead(GARAGEM));
         break;
       case 'F':
-        servo_motor.slowmove(95, 40);
+        servo_motor.slowmove(70, 80);
         break;
       case 'G':
-        servo_motor.slowmove(170, 40);
+        servo_motor.slowmove(160, 80);
         break;
       case 'H':
         digitalWrite(QUARTO, !digitalRead(QUARTO));
