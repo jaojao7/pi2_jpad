@@ -117,7 +117,7 @@ Caso opte por abrir a tela "CASA" referente ao controle dos parâmetros da resid
 #### Figura 21 Tela TEMPO
 <img src="./Imagens/telatemperatura.png" width="300">
 
-#### [PARA BAIXAR O APK DO APLICATIVO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/raw/main/Arquivos/JPAD_automacao_final.apk)
+#### [Para baixar o APK do aplicativo clique aqui](https://github.com/jaojao7/pi2_jpad/raw/main/Arquivos/JPAD_automacao_final.apk)
 (Após baixado, basta clicar no arquivo e instalar o mesmo normalmente em seu dispositivo Android)
 
-[PARA VOLTAR AO INÍCIO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad)
+[Para voltar a página inicial clique aqui.](https://github.com/jaojao7/pi2_jpad)
