@@ -1,4 +1,6 @@
 # IMPLEMENTAÇÃO
+Nesta etapa iremos de fato iniciar a montagem do projeto de automzatição residencial aplicado a uma maquete, a mesma irá receber essas tecnologias baseando-se na estrutura apresentada e projetada na etapa do design. A implementação foi realizada seguindo a mesma ordem de apresentação desta página. Primeiro a montagem da estrutura da maquete, seguida pela instalação dos sensores, cabos, LED's e outros componentes elétricos e por fim, o teste das conexões e estururas por meio da aplicação de controle.
+
 
 ## MAQUETE
   Para a fabricação da maquete, foi utilizado uma maquete modelo sobrado já cortada em MDF, devidamente montada e pintada para posteriormente receber toda a parte eletroeletrônica do projeto, a seguir as medidas da maquete e fotos ilustrativas da montagem:
