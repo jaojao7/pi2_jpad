@@ -1,5 +1,6 @@
 ## Design do Projeto
-
+Para a continuidade do projeto da inserção de tecnologias com a finalidade de realizar o processo de automatização residencial, entraremos agora na etapa do design, 
+onde a estrutura e configuração de materiais necessários e como os mesmos poderão futuramente ser implementados começa a surgir.
 Abaixo segue uma tabela com os componentes utilizados e suas respectivas descrições,  na sequência o esquemático da montagem:
 
 Imagem |Componente   | Quantidade | Descrição/Utilização
@@ -35,15 +36,15 @@ Abaixo algumas imagens do aplicativo que será posteriormente utilizado para rea
 <img src="./Imagens/iniciofinal.png" width="400">
 
 ###### Figura 3 - Tela Principal  
-<img src="./Imagens/telaprincipalfinal.png" width="400">
+<img src="./Imagens/telaprincipalfinal.png" width="300">
 
 ###### Figura 4 - Tela de controle casa 
-<img src="./Imagens/telacontrolefinal.png" width="400">
+<img src="./Imagens/telacontrolefinal.png" width="300">
 
 ###### Figura 5 - Tela Tempo 
-<img src="./Imagens/telatemperatura.png" width="400">
+<img src="./Imagens/telatemperatura.png" width="300">
 
 Formam realizados alguns testes inicias referentes aos sensores e as lógicas de funcionamento antes de iniciar a implementação do sistema final
-*  ### [PARA ACESSAR A PÁGINA REFERENTE AOS TESTES REALIZADOS CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
+*  ### [Para acessar a página referente aos testes clique aqui](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
 
 [PARA VOLTAR AO INÍCIO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad)
