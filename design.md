@@ -47,4 +47,4 @@ Abaixo algumas imagens do aplicativo que será posteriormente utilizado para rea
 Formam realizados alguns testes inicias referentes aos sensores e as lógicas de funcionamento antes de iniciar a implementação do sistema final
 *  #### [Para acessar a página referente aos testes clique aqui](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
 
-[PARA VOLTAR AO INÍCIO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad)
+[Para voltar a página inicial clique aqui.](https://github.com/jaojao7/pi2_jpad)
