@@ -94,17 +94,17 @@ Senha: pi2
 Caso a senha e\ou usuário digitados não correspondam o aplicativo informará o erro e não permitirá o acesso as outras páginas.
 
 #### Figura 18 Tela de login 
-<img src="./Imagens/iniciofinal.jpg" width="300">
+<img src="./Imagens/iniciofinal.png" width="300">
 
 Uma vez verificado as credenciais acima, a página principal abaixo é então aberta. Nesta etapa você terá três opções: Voltar a tela de login, iniciar a tela de controle da casa ou iniciar a tela para verificação das condções climáticas.
 
 #### Figura 19 Tela principal
-<img src="./Imagens/telaprincipalfinal.jpg" width="300">
+<img src="./Imagens/telaprincipalfinal.png" width="300">
 
 Caso opte por abrir a tela "CASA" referente ao controle dos parâmetros da residência, a tela da figura 20 será aberta.
 
 #### Figura 20 Tela CASA
-<img src="./Imagens/telacontrolefinal.jpg" width="300">
+<img src="./Imagens/telacontrolefinal.png" width="300">
 
   Algumas informações importantes sobre essa página. O aplicativo já está configurado para iniciar a conexão com o módulo Bluetooth automaticamente pelo endereço do mesmo. São realizados automaticamente duas tentativas de conexão. Caso o aplicativo não consiga realizar essa conexão uma notificação de erro é apresentada ao usuário. Caso consiga conectar o símbolo Bluetooth fica disponível inidicando o sucesso da conexão.
   Uma vez conectado é possível então realizar o controle da garagem e da iluminação dos comôdos.
