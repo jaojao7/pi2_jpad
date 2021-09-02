@@ -33,7 +33,7 @@ Imagem |Componente   | Quantidade | Descrição/Utilização
 ### Aplicativo
 Abaixo algumas imagens do aplicativo que será posteriormente utilizado para realizar o controle da casa:
 ###### Figura 2 - Tela de Login Incial  
-<img src="./Imagens/iniciofinal.png" width="400">
+<img src="./Imagens/iniciofinal.png" width="300">
 
 ###### Figura 3 - Tela Principal  
 <img src="./Imagens/telaprincipalfinal.png" width="300">
