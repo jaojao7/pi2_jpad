@@ -32,16 +32,16 @@ Imagem |Componente   | Quantidade | Descrição/Utilização
 ### Aplicativo
 Abaixo algumas imagens do aplicativo que será posteriormente utilizado para realizar o controle da casa:
 ###### Figura 2 - Tela de Login Incial  
-<img src="./Imagens/iniciofinal.png" width="200">
+<img src="./Imagens/iniciofinal.png" width="400">
 
 ###### Figura 3 - Tela Principal  
-<img src="./Imagens/telaprincipalfinal.png" width="200">
+<img src="./Imagens/telaprincipalfinal.png" width="400">
 
 ###### Figura 4 - Tela de controle casa 
-<img src="./Imagens/telacontrolefinal.jpeg" width="200">
+<img src="./Imagens/telacontrolefinal.png" width="400">
 
 ###### Figura 5 - Tela Tempo 
-<img src="./Imagens/telatemperatura.png" width="200">
+<img src="./Imagens/telatemperatura.png" width="400">
 
 Formam realizados alguns testes inicias referentes aos sensores e as lógicas de funcionamento antes de iniciar a implementação do sistema final
 *  ### [PARA ACESSAR A PÁGINA REFERENTE AOS TESTES REALIZADOS CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/blob/main/testes.md)
