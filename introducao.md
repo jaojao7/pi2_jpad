@@ -16,4 +16,4 @@
 * SISLITE (Portugal) (org.). **O QUE É A DOMÓTICA?** Disponível em: http://www.sislite.pt/domus.htm. Acesso em: 03 jun. 2021.
  * TEZA, Vanderlei Rabelo. **ALGUNS ASPECTOS SOBRE A AUTOMAÇÃO RESIDENCIAL - DOMÓTICA**. 2002. 108 f. Dissertação (Mestrado) - Curso de Ciência da Computação, Universidade Federal de Santa Catarina, Florianópolis, 2002.
 
-[PARA VOLTAR AO INÍCIO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad)
+[Para voltar a página inicial clique aqui.](https://github.com/jaojao7/pi2_jpad)
