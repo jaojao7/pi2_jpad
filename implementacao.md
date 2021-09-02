@@ -86,7 +86,7 @@ Podemos dividir o fluxograma de funcionamento acima em duas partes principais, a
 
   É importante ressaltar que, após a execução das tarefas referentes dentro da função loop, a mesma retorna ao estado de leitura inicial completando o ciclo. Isso é indicado pela seta em azul, demonstrando o retorno da função após sua execução. Novamente reafirmo que as funções tarefas dentro da função loop são executadas de maneira conjunta, não havendo interdependência de um bloco para outro. 
 ## APLICATIVO PARA CONTROLE 
-  A parte de controle da casa será realizada via aplicativo desenvolvido únicamente para este objetivo. Abaixo temos uma explicação da utilização deste APP e uma breve explicação da sua lógica de funcionamento.
+  A parte de controle da casa será realizada via aplicativo desenvolvido unicamente para este objetivo. Abaixo temos uma explicação da utilização deste APP e uma breve explicação da sua lógica de funcionamento.
 Após a sua inicialização, a tela abaixo será apresentada. Nesta etapa é necessário realizar o login para entrar no aplicativo. Por padrão o login é:
 Usuário: IFSC
 Senha: pi2
