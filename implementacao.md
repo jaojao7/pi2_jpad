@@ -106,8 +106,13 @@ Caso opte por abrir a tela "CASA" referente ao controle dos parâmetros da resid
 #### Figura 20 Tela CASA
 <img src="./Imagens/telacontrolefinal.png" width="300">
 
-  Algumas informações importantes sobre essa página. O aplicativo já está configurado para iniciar a conexão com o módulo Bluetooth automaticamente pelo endereço do mesmo. São realizados automaticamente duas tentativas de conexão. Caso o aplicativo não consiga realizar essa conexão uma notificação de erro é apresentada ao usuário. Caso consiga conectar o símbolo Bluetooth fica disponível inidicando o sucesso da conexão.
-  Uma vez conectado é possível então realizar o controle da garagem e da iluminação dos comôdos.
+  Algumas informações importantes sobre essa página. O aplicativo já está configurado para iniciar a conexão com o módulo Bluetooth automaticamente pelo endereço do mesmo. São realizados automaticamente duas tentativas de conexão. Caso o aplicativo não consiga realizar essa conexão uma notificação de erro é apresentada ao usuário. Caso consiga conectar, o símbolo Bluetooth fica disponível inidicando o sucesso da conexão.
+  Uma vez conectado é possível então realizar o controle da garagem e da iluminação dos comôdos. Quando algum botão de comando é apertado, o aplicativo envia um caracter específico para o arduino, o arduino identifica o comando relacionado ao caracter recebido e executa a tarefa correspondente. 
+  
+  Caso opte por abrir a tela "TEMPO", a página referente a figura 21 é apresentada. Nesta tela também já estão configurados duas tentantivas de conexão com o módulo Bluetooth automaticamente. Uma vez conectado, o termômetro é iniciado e os valores referentes a temperatura em Celsius e a umidade relativa do ar são apresentados e atualizados a cada 3 segundos.
+
+#### Figura 21 Tela TEMPO
+<img src="./Imagens/telatemperatura.png" width="300">
 
 #### [PARA BAIXAR O APK DO APLICATIVO CLIQUE AQUI](https://github.com/jaojao7/pi2_jpad/raw/main/Arquivos/JPAD_automacao.apk)
 (Após baixado, basta clicar no arquivo e instalar o mesmo normalmente em seu dispositivo Android)
