@@ -10,3 +10,4 @@
 * [Concepção](https://github.com/jaojao7/pi2_jpad/blob/main/concepcao.md)
 *  [Design](https://github.com/jaojao7/pi2_jpad/blob/main/design.md)
 *  [Implementação](https://github.com/jaojao7/pi2_jpad/blob/main/implementacao.md) 
+*  [Operação](https://github.com/jaojao7/pi2_jpad/blob/main/operacao.md)
