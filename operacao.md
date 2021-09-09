@@ -3,7 +3,7 @@
 Nesta seção está disponível um vídeo para apresentação dos resultados da maquete.
 
 Clique no link abaixo para assistir o vídeo:
-https://youtu.be/yk1Ng5Q3J3E
+<br> https://youtu.be/yk1Ng5Q3J3E
 
 Como podemos verificar, o objetivo principal do trabalho foi alcançado. A aplicação de diversas tecnologias com o intuito de automatizar a residência maquete foi concluido, o sistema de alarme funcionando, e valores de temperatura e umidade devidamente apresentados.
 
